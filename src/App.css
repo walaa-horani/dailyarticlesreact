@@ -1,0 +1,485 @@
+:root{
+  --primary-color:#a00303;
+  --image-height:250px;
+  --link:#595959
+}
+body{
+  font-family: 'Rubik', sans-serif;
+  text-transform: capitalize;
+
+
+}
+a{
+  text-decoration: none;
+}
+.article-box{
+  overflow: hidden;
+  transition: 0.s;
+}
+.article-box img{
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  transition: 0.4s;
+}
+.article-box img:hover{
+  scale: 1.1;
+}
+.breaking-box img{
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.heading h4{
+  margin-bottom: 25px;
+  position: relative;
+  font-family: 'Londrina Solid', cursive;
+
+}
+.heading h4:before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background-color: var(--primary-color);
+  width: 100px;
+  height: 3px;
+}
+
+.spor-box img{
+  height: var(--image-height);
+  width: 100%;
+  object-fit: cover;
+}
+
+.button-see{
+  text-align: right;
+  margin-top: 20px;
+}
+.button-see button{
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: white;
+  background-color: var(--primary-color);
+  border: none !important;
+  outline:  none !important;
+}
+.button-tour{
+  text-align: center;
+}
+.small-box  span{
+  color: #4c4c4c;
+}
+.small-box  a{
+  display:flex;
+  align-items: center;
+}
+.small-box  a:hover{
+  border-bottom: none !important;
+}
+.button-see button a{
+  color: white;
+}
+.food a {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.food img{
+  border-radius: 10px;
+}
+.box-flex img{
+ 
+  border-radius: 10px;
+ 
+}
+.box-column-content{
+  margin-bottom: 10px;
+}
+.box-column a{
+  line-height: 5px !important;
+}
+.box{
+  position: relative;
+  margin-bottom: 20px;
+}
+.article-box{
+  position: relative;
+}
+.article-box span{
+  position: absolute;
+  background: white;
+    left: 0;
+    bottom: 0;
+    padding: 2px 5px;
+    color: var(--primary-color);
+    font-size: 12px;
+    border-top-right-radius: 5px;
+}
+.box a{
+  font-size: 13px;
+  margin-top: 15px;
+  
+  color: var(--link);
+}
+.small-box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.nav-icon{
+  display: none;
+  z-index: 999999999;
+}
+.food-img{
+  width: 100%;
+  border-radius: 6px;
+}
+.food-title{
+  font-size: 12px;
+  margin-left: 10px;
+}
+.tourism img{
+  width: 100%;
+  height: 250px;
+}
+
+.box-column a{
+  font-size: 12px;
+}
+.image-big img{
+  width: 100% !important;
+} 
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.list ul li{
+  position: relative;
+}
+.list ul li{
+  text-align: left;
+}
+.box a{
+  transition: 0.3s;
+  position: relative;
+}
+.box a:hover{
+  border-bottom: 1px solid var(--primary-color);
+}
+.list ul li:before{
+  position: absolute;
+  left: -10px;
+  background-color: #ccc;
+  height: 100%;
+  width: 1px;
+  content: "";
+
+}
+.footer-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  text-align: center;
+  
+  
+}
+.footer-links .link{
+  flex-basis: 10%;
+ 
+}
+.footer-links .link a{
+  color: #4c4c4c;
+  font-size: 14px;
+}
+.list ul li{
+  color: #4c4c4c;
+}
+.small-img {
+  margin-bottom: 10px;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.logo a{
+  font-family: 'Bruno Ace', cursive;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: black ;
+
+}
+.navbar-icons ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.logo2{
+  display: none;
+}
+.navbar-icons ul li a{
+  color: black ;
+}
+.single-page{
+  margin-top: 100px;
+}
+.single-page h3{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 30px;
+
+}
+.single-page img{
+  margin: auto;
+  text-align: center;
+  
+}
+
+.single-page p{
+  margin-top: 30px;
+    text-align: justify;
+    line-height: 35px;
+    color: #4c4c4c;
+    padding: 15px;
+}
+.lifestyle img{
+  height: 350px;
+  position: relative;
+}
+.lifestyle .box a{
+  position: absolute;
+  bottom: -36px;
+  padding: 15px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+footer .logo{
+  background-color: black;
+  padding: 10px;
+}
+footer .logo a{
+  font-size: 20px;
+  color: white;
+}
+ 
+.box .box-text{
+  margin-top: 15px !important;
+}
+
+@media screen and (max-width: 992px) {
+  .small-box a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    
+  }
+  .single-page h3{
+    font-size: 20px;
+  }
+  .article-box img{
+    height: 145px;
+  }
+  .small-box{
+    display: block;
+  }
+  .food-img{
+    width: 50%;
+  }
+  .food-title{
+    margin-top: 15px ;
+  }
+  .list ul li{
+    font-size: 14px;
+  }
+  .slide-container h4{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .button-see button{
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .life .article-box img{
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .small-box a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    
+  }
+  .footer-links .link{
+    flex-basis: 50%;
+   
+  }
+  .food-img{
+    width: 100%;
+  }
+  .slide-container h4{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .box {
+   
+    text-align: center;
+  }
+  .box a{
+    font-size: 16px;
+    margin-top: 15px
+  }
+ 
+  .food-title {
+    margin: 15px auto !important;
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .heading{
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .heading h4:before{
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .heading h4{
+    margin-bottom: 0;
+  }
+  .button-tour{
+    text-align: center;
+  }
+  .button-tour{
+    text-align: right;
+  }
+  .lifestyle .box a {
+
+    bottom: -38px;
+    padding: 8px;
+    font-size: 14px;
+}
+.list{
+  text-align: center;
+}
+.list ul li:before{
+  width: 0;
+}
+.heading h4{
+  margin-top: 30px;
+}
+.logo a{
+  font-size: 30px;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .slide-container h4 {
+    font-size: 13px ;
+    line-height: 20px;
+    
+  }
+  .navbar-articles .logo{
+    display: none;
+  }
+  
+  .navbar-icons-mobile-contain .logo2{
+    display: block !important
+  }
+  .nav-icon{
+    background: black;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    z-index: 99999999;
+    
+  }
+  .navbar-icons{
+    display: none;
+  }
+  .single-page p{
+    text-align: left;
+    font-size: 14px;
+  }
+  .lifestyle .box a{
+    bottom: -40px;
+    
+    font-size: 12px;
+  }
+  .single-page h3{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .navbar-icons-mobile ul li a{
+    font-size: 12px;
+  }
+  .navbar-icons-mobile{
+    position: fixed;
+    left: 0;
+    width:100%;
+   z-index: 999999;
+    background: rgba(0,0,0,0.9);
+    height: 100%;
+    top: 0;
+   
+  }
+ .navbar-articles .nav-icon{
+   height: 40px;
+   width: 100%;
+   position: fixed;
+   display: block !important;
+   top: 0;
+   left: 0;
+  }
+  .logo2{
+    display: block;
+    position: fixed;
+    z-index: 999999999999999999999;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 20px;
+    font-size: 25px;
+  }
+  .navbar-icons-mobile ul{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+  }
+  .navbar-icons-mobile ul li a{
+    color: white;
+    display: block;
+    padding: 25px 0;
+  }
+.footer-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+.footer-links .link{
+  flex-basis: 50%;
+ 
+}
+.footer-links .link a{
+  color: #4c4c4c;
+  font-size: 14px;
+}
+}
